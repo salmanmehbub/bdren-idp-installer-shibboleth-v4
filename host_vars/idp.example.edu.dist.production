@@ -1,6 +1,6 @@
 ---
 # ------------------------------------------------------------------------------
-# EXAMPLE: CONFIGURED FOR AAF PRODUCTION ENVIRONMENT
+# EXAMPLE: CONFIGURED FOR TigerFed PRODUCTION ENVIRONMENT
 # ------------------------------------------------------------------------------
 
 # The host name of the target machine
