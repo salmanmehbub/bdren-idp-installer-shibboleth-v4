@@ -4,32 +4,32 @@
 # ------------------------------------------------------------------------------
 
 # The host name of the target machine
-idp_host_name: "idp.example.edu"
+idp_host_name: "idp-ifire2.bdren.net.bd"
 
 # IdP Entity ID
-idp_entity_id: "https://idp.example.edu/idp/shibboleth"
+idp_entity_id: "https://idp-ifire2.bdren.net.bd/idp/shibboleth"
 
 # IdP 'Attribute Scope'
-idp_attribute_scope: "example.edu"
+idp_attribute_scope: "bdren.net.bd"
 
 # Federation ID
-federation_id: "AAF"
+federation_id: "TigerFed"
 
 # The federation's group id used for metadata-based attribute filtering
-federation_group_id: "https://md.aaf.edu.au/aaf-metadata.xml"
+federation_group_id: "https://md.tigerfed.net.bd"
 
 # Shared federation metadata
-metadata_url: "https://md.aaf.edu.au/aaf-metadata.xml"
+metadata_url: "https://md.tigerfed.net.bd/rr3/signedmetadata/federation/tiger-fed/metadata.xml"
 
 # Shared federation certificate
-metadata_cert_url: "https://md.aaf.edu.au/aaf-metadata-certificate.pem"
-metadata_cert_sha256sum: 00ec963039ca877b7111db3188d3d646e071c4c84ab8201fc35ad62a77ffa1a1
+metadata_cert_url: "https://md.tigerfed.net.bd/rr3/signedmetadata/tigerfed-metadata-certificate.pem"
+metadata_cert_sha256sum: f34ed3b960166f4d51720b7181ddf8f378c432a389495c2758fe7b7ee4aa1229
 
 # Metadata file name
-metadata_file_name: aaf-metadata.xml
+metadata_file_name: tigerfed-metadata.xml
 
 # Metadata certificate file name
-metadata_cert_file_name: aaf-metadata.pem
+metadata_cert_file_name: tigerfed-metadata.pem
 
 # Your organisation's name
 organisation_name: "The University of Example"
