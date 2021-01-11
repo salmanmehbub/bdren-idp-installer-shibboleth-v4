@@ -22,7 +22,7 @@ function set_internal_variables {
     GIT_BRANCH=master
 
     FR_TEST_REG=https://manager.test.aaf.edu.au/federationregistry/registration/idp
-    FR_PROD_REG=https://md.tigerfed.net.bd/rr3
+    FR_PROD_REG=https://registry.tigerfed.net.bd/rr3
 }
 
 
@@ -294,7 +294,7 @@ Bootstrap finished!
 
 To make your IdP functional follow these steps:
 
-1. Register your IdP in Federation Registry: https://md.tigerfed.net.bd/rr3
+1. Register your IdP in Federation Registry: https://registry.tigerfed.net.bd/rr3
    
 EOF
 echo "Done"
